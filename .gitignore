@@ -1,0 +1,8 @@
+node_modules/
+.env
+npm-debug.log*
+.DS_Store
+.keys/
+dist/
+logs/
+com.bret.zhihu-question-assistant.plist
