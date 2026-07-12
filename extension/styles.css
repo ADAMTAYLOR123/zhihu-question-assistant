@@ -1,0 +1,175 @@
+:root {
+  color-scheme: light;
+  font-family:
+    Inter, "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  color: #172033;
+  background: #f4f7fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 390px;
+  min-height: 430px;
+  margin: 0;
+  background:
+    radial-gradient(circle at top right, rgba(0, 102, 255, 0.12), transparent 34%),
+    #f4f7fb;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  padding: 20px;
+}
+
+.app-header {
+  margin-bottom: 14px;
+}
+
+.eyebrow {
+  margin: 0 0 5px;
+  color: #0066ff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 23px;
+  letter-spacing: -0.03em;
+}
+
+.subtitle {
+  margin: 7px 0 0;
+  color: #687289;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.settings-panel {
+  border: 1px solid #dfe6f0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.84);
+}
+
+.settings-content {
+  padding: 13px;
+}
+
+.settings-intro,
+.security-notice,
+.settings-status {
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.settings-intro {
+  margin: 0 0 11px;
+  color: #687289;
+}
+
+.settings-intro code {
+  padding: 1px 4px;
+  border-radius: 4px;
+  background: #eef2f7;
+}
+
+.field {
+  display: grid;
+  gap: 5px;
+  margin-top: 10px;
+  color: #3c475c;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  border: 1px solid #dce3ee;
+  border-radius: 8px;
+  padding: 9px 10px;
+  outline: none;
+  color: #172033;
+  background: #fff;
+  font-weight: 500;
+}
+
+.field input:focus,
+.field select:focus {
+  border-color: #6da8ff;
+  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.1);
+}
+
+.field-hint {
+  color: #8a95a8;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.security-notice {
+  margin: 11px 0 0;
+  padding: 8px 9px;
+  border-radius: 8px;
+  color: #79511d;
+  background: #fff7e8;
+}
+
+.security-notice code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.codex-notice {
+  color: #315179;
+  background: #eaf2ff;
+}
+
+.settings-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 11px;
+}
+
+.secondary-button,
+.text-button {
+  border-radius: 8px;
+  padding: 8px 11px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.secondary-button {
+  border: 1px solid #0066ff;
+  color: #fff;
+  background: #0066ff;
+}
+
+.text-button {
+  border: 1px solid #dce3ee;
+  color: #59657a;
+  background: #fff;
+}
+
+.settings-status {
+  min-height: 17px;
+  margin: 7px 0 0;
+  color: #27734b;
+}
+
+.settings-status.is-error {
+  color: #9b2c2c;
+}
+
+.is-hidden {
+  display: none !important;
+}
